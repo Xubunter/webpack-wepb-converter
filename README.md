@@ -68,8 +68,11 @@ autoFilter   | boolean    |
 sharpness    | int, 0 to 7| 
 lossles      | boolean    | 
 nearLossless | int        | 
+ignore       | boolean    | 
 
 most of int between 0 and 100 
+
+`ignore` skip convert this image
 
 read more https://developers.google.com/speed/webp/docs/cwebp
 

@@ -24,16 +24,13 @@ const converter = (
 
   let currentAsset = assets[name];
 
-  console.log(`name: ${name}, options: ${options}, newName: ${newName}, savedKB: {savedKB}`)
-
   return imagemin
     .buffer(currentAsset.source(), {
       plugins: [webp(options)],
     })
     .then((buffer) => {
-      
       let savedKB = (currentAsset.size() - buffer.length) / 1000;
-    
+
       if (savedKB <= 0) {
         console.log('')
         console.log(RED, `${savedKB.toFixed(1)} KB over from '${name}'`);
@@ -53,8 +50,6 @@ const converter = (
     })
     .catch((err) => {
       console.log(err)
-      console.log('catch')
-      console.log('')
       return 0;
     })
 };
