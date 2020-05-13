@@ -9,7 +9,11 @@ const parserCssOptions = (value = "") => {
   const map = {
     'q': 'quality',
     'lossless': 'lossless',
-    'near_lossless': 'nearLossless'
+    'near_lossless': 'nearLossless',
+    'm': 'method',
+    'alpha_q': 'alphaQuality',
+    'f': 'filter',
+    'af': 'autoFilter',
   }
 
   const args = value.split(' ');
