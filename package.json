@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\""
   },
   "dependencies": {
     "css": "^2.2.4",
@@ -13,15 +13,14 @@
     "imagemin-webp": "^5.0.0"
   },
   "devDependencies": {
-    "cwebp": "^2.0.5",
-    "webpack": "4.43.0"
+    "cwebp": "^2.0.5"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Xubunter/webpack-wepb-converter.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Xubunter",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/Xubunter/webpack-wepb-converter/issues"
   },
