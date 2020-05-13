@@ -1,0 +1,29 @@
+{
+  "name": "webpack-wepb-converter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "css": "^2.2.4",
+    "css-ast-iterations": "^0.5.0",
+    "imagemin": "^6.1.0",
+    "imagemin-webp": "^5.0.0"
+  },
+  "devDependencies": {
+    "cwebp": "^2.0.5",
+    "webpack": "4.43.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Xubunter/webpack-wepb-converter.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Xubunter/webpack-wepb-converter/issues"
+  },
+  "homepage": "https://github.com/Xubunter/webpack-wepb-converter#readme"
+}
