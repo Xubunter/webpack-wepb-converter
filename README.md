@@ -1,7 +1,7 @@
 # webpack-wepb-converter
 
 ## Description
-Converting background images in css to webp whith fallback for not support browsers
+Converting background images in css to webp with fallback for not support browsers
 
 ## Usage
 
