@@ -99,12 +99,20 @@ class PluginWebP {
                   if (fileName && stats.assets[fileName]) {
                     let options;
 
+                    let haveFormatInConfig = false;
+
                     for (let i = 0; i < this.config.length; i++) {
                       if (this.config[i].test.test(fileName)) {
                         options = this.config[i].options;
+                        haveFormatInConfig = true;
                         break;
                       }
                     }
+
+                    if (!haveFormatInConfig) {
+                      return;
+                    }
+
                     const convertedFileName = fileName.replace(/\(|\)|/g, '').replace(/\s/g, '-')
                     backgroundData.fileName = fileName;
                     backgroundData.convertedFileName = convertedFileName;
