@@ -56,12 +56,10 @@ Name         | Value |
 :----------- |:----------:|
 preset       | default, photo, picture, drawing, icon, text   | 
 quality      | int        | 
-alpha_q      | int        | 
+alphaQuality | int        | 
 m            | int        | 
-alpha_q      | int        | 
 size         | int        | 
 sns          | int        | 
-alpha_q      | int        | 
 filter       | int        | 
 f            | int        | 
 autoFilter   | boolean    | 
