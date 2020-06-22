@@ -215,7 +215,8 @@ class PluginWebP {
       if (!result) {
         document.querySelector('head').innerHTML +='<style>${fallbackCssString}</style>'
       }
-      document.getElementById('testWebp').innerHTML = result;
+      let test = document.getElementById('testWebp');
+      if (test) {test.innerHTML = result;}
     }
     var kTestImages = {
         lossy: "UklGRiIAAABXRUJQVlA4IBYAAAAwAQCdASoBAAEADsD+JaQAA3AAAAAA",
